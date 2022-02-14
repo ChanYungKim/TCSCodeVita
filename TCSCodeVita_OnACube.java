@@ -2,6 +2,11 @@
 import java.util.*;
 
 public class TCSCodeVita_OnACube {
+  
+  public static int square (int n) {
+    return n*n;
+  }
+  
   public static float shortestDistance (int xCurrent, int yCurrent, int zCurrent, int xTarget, int yTarget, int zTarget) {
     float distance = 0;
 
@@ -43,10 +48,6 @@ public class TCSCodeVita_OnACube {
     }
     //System.out.println(distance);
     return distance;
-  }
-  
-  public static int square (int n) {
-    return n*n;
   }
 
   public static double calculateArcLength (double chordLength) {
